@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "icons": { "128": "images/icon.png" },
+  "browser_action": {
+    "default_icon": "images/icon.png"
+  },
+  "content_scripts": [{
+    "matches": [ "http://medium.com/*", "https://medium.com/*" ],
+	"run_at": "document_end",
+    "js": [ "js/content.js" ]
+  }],
+  "permissions": [ "https://medium.com/" ],
+  "content_security_policy": "script-src 'self'; object-src 'self'"
+}
