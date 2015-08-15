@@ -3,7 +3,8 @@ Chrome Extension to remove distracting non-content from several websites.
 
 An example are annoying bars and suggestion pop-up boxes in [Medium](https://medium.com/):
 
-## Before
+## Medium Example
+![](./examples/medium.gif)
 
 # How do I use this?
 This extension is based on the [chrome-extension-skeleton](https://github.com/salsita/chrome-extension-skeleton), so you should follow step 2 to get your own key for building the extension.
